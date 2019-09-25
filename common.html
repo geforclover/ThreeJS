@@ -8,6 +8,8 @@
   <script src="./scripts/three.js"></script>
   <script src="./scripts/init.js"></script>
   <script src="./scripts//stats.min.js"></script>
+  <script src="./scripts/dat.gui.min.js"></script>
+  <script src="./scripts/SceneUtils.js"></script>
   <style>
       body {
           margin: 0;
@@ -21,6 +23,7 @@
     <div id="Stats-output"></div>
     <script>
         window.onload = init
+        window.addEventListener('resize', onResize, false)
     </script>
 </body>
 </html>
